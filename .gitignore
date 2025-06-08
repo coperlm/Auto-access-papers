@@ -1,0 +1,5 @@
+
+*.pdf
+
+/search_results/*.json
+
