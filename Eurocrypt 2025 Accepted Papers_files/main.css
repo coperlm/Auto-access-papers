@@ -1,0 +1,711 @@
+/* Original color scheme by Kay McKelly, available at http://www.colourlovers.com/palette/4331737/Cryptography_Brights */
+/* rough table of contents
+- general styling (high level stuff like body bg color, fonts, etc)
+- dark/light modes
+- nav
+- header
+- main content general styling (combine with general?)
+- page specific: index (can remove??)
+- page specific: multiple pages (move to main general?)
+- page specific: accepted papers (if not used elsewhere move to specific page)
+- page specific: program (if not used elsewhere move to specific page)
+- page specific: registration (if not used elsewhere move to specific page)
+- page-specific: sponsors (if not used elsewhere move to specific page)
+ */
+
+
+/***** General styling *****/
+body {
+  color: #1F2161;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 2rem !important;
+  }
+}
+
+a {
+  color: #0F773C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CB831E;
+  text-decoration: none;
+}
+
+.icon {
+  width: 1.3em;
+  height: 1.3em;
+  filter: invert(16%) sepia(91%) saturate(6408%) hue-rotate(156deg) brightness(92%) contrast(88%);
+  /* equivalent to bootstrap classes .me-2 and .mb-1 */
+  margin-bottom: .25rem !important;
+  margin-right: .5rem !important;
+}
+
+/* because bootstrap never should've gotten rid of .btn-block */
+.blockBtn {
+  width: 100%;
+}
+
+
+
+/***** Dark & light modes *****/
+@media (prefers-color-scheme: dark) {
+  .element {
+    color: var(--bs-primary-text-emphasis);
+    background-color: var(--bs-primary-bg-subtle);
+  }
+}
+
+/* main {
+  background-color: #100243;
+} */
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+#mainNavRow {
+  background-color: #102A83;
+}
+
+/* NOTE: Normally in Bootstrap you'd just add .nav-fill and .w-100 to ul.navbar-nav. Unfortunately this makes all nav links centered in mobile, which looks dumb. This is the workaround. Thanks to myself (Kay) and a ridiculous amount of searching + trial & error for this solution. */
+@media only screen and (min-width: 768px) {
+  #nav-ul {
+    width: 100% !important;
+  }
+
+  #nav-ul .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
+.navbar-nav a.nav-link {
+  color: #FEFDFB;
+  font-size: 1.2rem;
+}
+
+div.dropdown-menu {
+  color: #FEFDFB;
+  background-color: #102A83;
+  border: none;
+}
+
+a.dropdown-item {
+  color: #FEFDFB;
+}
+
+/* NOTE: hover effect for navbar only on larger screens. massive thanks to
+ * https://stackoverflow.com/questions/51413782/dropdown-on-hover-in-bootstrap-4-1
+ */
+@media only screen and (min-width: 768px) {
+  /* pre-modes this was li:not(:last-child):hover... */
+  #navbarNav li:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  #navbarNav .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+
+  /* Fix for dropdown hover. Without this there is a .125rem gap
+     that causes hover to stop working. */
+  #navbarNav div.dropdown-menu {
+    margin-top: 0;
+    padding-top: .625rem;
+  }
+}
+
+/* prevents bootstrap from adding stupid ugly stuff to hamburger */
+.nofocus:focus {
+  box-shadow: none;
+}
+
+.navbar-nav .nav-link.show {
+  color: #FEFDFB;
+}
+
+/* Hamburger transform to x */
+.icon-bar {
+  width: 29px;
+  height: 2px;
+  background-color: #F0F0F0;
+  display: block;
+  transition: all 0.3s;
+  margin-bottom: 6px;
+}
+
+#mainNavRow .navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+#mainNavRow .navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+#mainNavRow .navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+#mainNavRow .navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+#mainNavRow .navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+#mainNavRow .navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+#mainNavRow .navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* END hamburger transform to x */
+
+.navbarIcon {
+  width: 1.3em;
+  height: 1.3em;
+  /* was aiming for #FEFDFB but this is close enough */
+  filter: invert(100%) sepia(17%) saturate(36%) hue-rotate(8deg) brightness(131%) contrast(99%);
+}
+
+a.dropdown-item:hover .navbarIcon {
+  filter: invert(20%) sepia(11%) saturate(3385%) hue-rotate(199deg) brightness(92%) contrast(112%);
+}
+
+a.dropdown-item .navbarIcon {
+  margin-right: 0.75rem;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+}
+
+@media (max-width: 992px) {
+  .headerImg {
+    height: 230px;
+  }
+}
+
+/* pageTopContainer behaves like container without !important. */
+.pageTopContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 0 15px; */
+}
+
+@media (min-width: 576px) {
+  .pageTopContainer {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .pageTopContainer {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pageTopContainer {
+    max-width: 100%;
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pageTopContainer {
+    max-width: 90%;
+    padding: 0 5rem;
+  }
+}
+
+.headerGradient {
+  height: 100%;
+}
+
+#titlesLogoDiv {
+  /* imitate .flex-column sans !important */
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+@media (min-width: 992px) {
+  #titlesLogoDiv {
+    /* imitate .flex-column sans !important in sizes smaller than lg */
+    flex-direction: row;
+    /* different styling for header contents at different sizes */
+    padding-top: 5rem;
+  }
+}
+
+/* @media (min-width: 992px) {
+  #titlesLogoDiv {
+    padding-top: 4rem;
+  }
+} */
+
+#logo {
+  max-height: 6.9em;
+  /* filter: drop-shadow(0px 0px 20px rgb(255, 255, 255)); */
+}
+
+.headerTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+  padding: 0 1.5rem;
+  font-size: 2.3rem;
+  /* try */
+  /* font-size: 3rem; */
+}
+
+/* @media (min-width: 768px) {
+  .headerTitle {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerTitle {
+    padding: 0;
+  }
+} */
+
+.headerInfoTop, .headerInfoBottom {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 5px 5px 20px #FEFDFB, 0.3px 0.3px #1F2161;
+  letter-spacing: 2px;
+  text-align: right;
+  font-size: 1.5rem;
+  /* try
+  font-size: 1.8rem; */
+}
+
+@media (max-width: 992px) {
+  .headerTitle, .headerInfoTop, .headerInfoBottom {
+    text-align: center;
+    padding: 0 1.5rem;
+    /* padding: 0 1rem; */
+  }
+
+  /* headerTitle {
+    font-size: 2.5rem;
+  }
+
+  .headerInfoTop,
+  .headerInfoBottom {
+    font-size: 1.6rem;
+  } */
+}
+
+
+
+/***** Main Content: general styling *****/
+.indPageTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  /* margin-top: 3rem;
+  font-size: 2.3rem; */
+}
+
+.pageSubtitle {
+  color: #CB831E;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* relates to cards (NOTE: color info for cards in theme stylesheets) */
+.customCard {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.customCardHeader {
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.customCardRow {
+  padding: 1rem 1rem 1.2rem 1rem;
+}
+
+.customCardRow p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.dateTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 0.1rem;
+  font-size: 1.15rem;
+}
+
+.passedDeadline {
+  text-decoration: line-through;
+}
+
+.customCardFooter {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+/* END styles related to cards */
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+/***** Page-specific: index *****/
+.sponsorLogo {
+  max-width: 150px;
+}
+
+
+
+/***** Page-specific (multiple pages) *****/
+.subSubtitle {
+  color: #0F773C;
+}
+
+
+
+/***** Page-specific: accepted papers *****/
+.paperTitle {
+  font-weight: bold;
+  color: #1F2161;
+}
+
+
+
+/***** Page-specific: program *****/
+/*NOTE: remove once finalized that vertical alignment for times is unnecessary*/
+/*.verticalAlign {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}*/
+
+p.timeSlot {
+  /* text-align: right; */
+  margin-top: 8px;
+}
+
+p.talkTitle {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+p.trackSwitch {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* TODO: using? */
+/* div.talkAbstract {
+   text-align: center;
+} */
+
+p.eventDescr {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+p.trackDescr {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+p.authorList {
+  text-align: left;
+}
+
+span.authorName:after {
+  content: ',';
+}
+
+span.authorName:last-of-type:after {
+  content: '';
+}
+
+div.sessionList span.talkMedia {
+  text-align: center;
+}
+
+/* NOTE: in virtual conf template is */
+span.talkMedia {
+  display: inline-block;
+}
+
+img.talkMediaIcon, img.sessionInfoIcon {
+  height: 20px;
+}
+
+img.talkMediaIcon {
+  margin: 0 5px 0 5px;
+}
+
+img.sessionInfoIcon {
+  vertical-align: unset;
+}
+
+ul.programNav .nav-link:hover {
+  background-color: #eeeeee;
+}
+
+div.dropdown-menu.calendar {
+  background-color: white;
+}
+
+div.dropdown-menu.calendar a {
+  color: #102a83;
+}
+
+div.sessionList {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  div.sessionList {
+    margin-top: 1rem;
+  }
+}
+
+/* tabbed sessions use this */
+div.trackMenu a.nav-link {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    font-weight: 600;
+    /* sets base bg & border color so nothing too terrible happens with
+    changing themes */
+    background-color: #F0F0F0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-color: #E9ECEF #E9ECEF;
+    /* border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    font-weight: 600; */
+}
+
+@media (min-width: 768px) {
+  div.trackMenu a.nav-link {
+    margin-bottom: .5rem;
+  }
+}
+
+/* set base bg color for active session tab; this may be changed in themes to
+match the background color of the div.session */
+div.trackMenu a.nav-link.active {
+  background-color: #DFDFDF;
+  /* match color to a:hover color, generally speaking */
+  color: #CB831E;
+}
+
+@media (max-width: 992px) {
+    div.trackMenu .nav-link {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* tabs on top of tabbed sessions if below md. */
+@media (max-width: 767px) {
+    div.trackMenu a.nav-link {
+        border-top-right-radius: 10px !important;
+        border-bottom-left-radius: 0 !important;
+        margin-bottom: 0;
+        margin-right: .6rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+/* The colors of sessions and tabs could be changed in a theme. */
+div.sessionList div.session {
+  border-radius: .3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* All tracks are centered. */
+div.sessionList div p {
+    text-align: center;
+}
+.inlineSessions > div:not(:first-child ) {
+    margin-left: 7px;
+}
+.inlineSessions > div:not(:last-child ) {
+    margin-right: 7px;
+}
+
+/** This makes untabbed sessions equal width. */
+div.inlineSessions div.session {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+div.paper-abstract {
+    white-space: pre-wrap;
+}
+
+/* Used for expandable abstract */
+a.toggle-open:after {
+    content:' -';
+    font-weight: 800;
+}
+a.toggle-closed:after {
+    content: " ›";
+    font-weight: 800;
+}
+
+ul.days-nav li.nav-item {
+    border-radius: 10px;
+    border-color: black;
+}
+
+ul.days-nav .nav-link:hover {
+    background-color: #eeeeee;
+}
+
+ul.days-nav .nav-link {
+    margin-right: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-color: #e9ecef #e9ecef #dee2e6;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+ul.nav .nav-link:hover, div.dropdown-menu.calendar {
+    background-color: #EEE;
+}
+
+
+
+/***** Page-specific: registration *****/
+#regTable {
+  padding: 0.5rem 2rem;
+
+  /* NOTE: if you prefer a registration table with fewer borders, comment out all lines below (make sure to leave the note lines 
+  commented out) */
+  border-top: 1px solid rgba(15, 119, 60, 0.2);
+  border-right: 1px solid rgba(15, 119, 60, 0.2);
+  border-left: 1px solid rgba(15, 119, 60, 0.2);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+
+  /* NOTE: if using #regFoot comment out next three lines */
+  /* border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px; */
+}
+
+#regTopRow {
+  border-bottom: 1px solid rgba(15, 119, 60, 0.2);
+}
+
+#regBodyRow {
+  padding-top: 1rem;
+}
+
+.regTitle {
+  /* font-weight: bold; */
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+p.regBodyText {
+  text-align: left;
+}
+
+p.priceText {
+  text-align: center;
+}
+
+#regFoot {
+  background-color: rgba(15, 119, 60, 0.1);
+  /* NOTE: if using a rounded border, uncomment the following two lines */
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#regFoot p {
+  margin-bottom: 0 !important;
+}
+
+
+
+/***** Page-specific: sponsors *****/
+.sponsorLogoBox {
+  /* emulates .rounded, needed for black theme */
+  border-radius: .25rem;
+  /* emulate .col-10 */
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+  max-height: 300px;
+}
+
+/* emulate .col-md-6 */
+@media (min-width: 768px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    max-height: 300px;
+  }
+}
+
+/* emulate .col-lg-4 */
+@media (min-width: 992px) {
+  .sponsorLogoBox {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    max-height: 300px;
+  }
+}
+
+img.sponsorPageLogo {
+  max-width: 100%;
+  width: auto;
+  /* height: auto; */
+  padding: 1.5rem;
+  max-height: 300px;
+}

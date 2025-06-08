@@ -1,0 +1,20 @@
+{
+  "Optimal Traitor Tracing from Pairings": {
+    "title": "Optimal Traitor Tracing from Pairings",
+    "authors": "Mark Zhandry",
+    "eprint_url": "https://eprint.iacr.org/2024/867",
+    "timestamp": "2025-06-08 12:13:21"
+  },
+  "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN": {
+    "title": "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN",
+    "authors": "Henry Corrigan-Gibbs, Alexandra Henzinger, Yael Tauman Kalai, Vinod Vaikuntanathan",
+    "eprint_url": "https://eprint.iacr.org/2024/1760",
+    "timestamp": "2025-06-08 12:18:09"
+  },
+  "On Quantum Money and Evasive Obfuscation": {
+    "title": "On Quantum Money and Evasive Obfuscation",
+    "authors": "Mark Zhandry",
+    "eprint_url": "https://eprint.iacr.org/2025/325",
+    "timestamp": "2025-06-08 12:18:34"
+  }
+}
