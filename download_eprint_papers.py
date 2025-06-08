@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 批量下载IACR eprint论文
 
@@ -54,6 +52,11 @@ def extract_pdf_url_from_eprint_url(eprint_url):
     """
     # 清理URL，移除可能的查询参数或片段标识符
     base_url = eprint_url.split('#')[0].split('?')[0].rstrip('/')
+    
+    # 检查URL是否已经以.pdf结尾
+    if base_url.lower().endswith('.pdf'):
+        return base_url  # 如果已经是PDF链接，直接返回
+    
     # 添加.pdf扩展名
     return f"{base_url}.pdf"
 
@@ -167,8 +170,18 @@ def download_papers():
     try:
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             papers_data = json.load(f)
-        
         print(f"从 {INPUT_FILE} 读取了 {len(papers_data)} 篇论文信息")
+        
+        # 检查并统计eprint_url为null的论文
+        null_url_papers = [title for title, data in papers_data.items() 
+                          if data.get("eprint_url") is None]
+        
+        if null_url_papers:
+            print(f"\n警告: 发现 {len(null_url_papers)} 篇论文的eprint_url为null:")
+            for i, title in enumerate(null_url_papers, 1):
+                author_info = papers_data[title].get("authors", "未知作者")
+                print(f"  {i}. {title} (作者: {author_info})")
+            print()  # 添加空行分隔
         
         # 过滤出有eprint URL的论文
         papers_with_url = {

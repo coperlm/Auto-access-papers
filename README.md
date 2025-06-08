@@ -114,3 +114,21 @@ pip install requests selenium webdriver-manager tqdm beautifulsoup4
 ---
 
 *最后更新: 2025年6月8日*
+
+---
+
+以上内容是ai写的
+
+操作流程：
+
+ - 先按ai说的，安装依赖
+
+ - ctrl+s下载欧密官网，包含需要下载的论文，移动到主目录
+
+ - 运行 `extract_papers.py`，将官网论文转化为json格式 `eurocrypt_2025_papers.json`
+
+ - 运行 `get_eprint_urls.py`，通过论文名称 在iacr官网上检索相关论文下载链接，并保存到 `paper_eprint_urls.json` 中
+
+ - 运行 `download_eprint_papers.py`，通过已经获取好了的下载链接，下载所有论文
+
+ - 大概下载到第70-80个，就会有人机验证，手动通过一下就好了

@@ -1,5 +1,2 @@
-
-*.pdf
-
-/search_results/*.json
-
+search_results/
+papers/

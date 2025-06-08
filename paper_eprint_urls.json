@@ -16,5 +16,725 @@
     "authors": "Mark Zhandry",
     "eprint_url": "https://eprint.iacr.org/2025/325",
     "timestamp": "2025-06-08 12:18:34"
+  },
+  "MPC with Publicly Identifiable Abort from Pseudorandomness and Homomorphic Encryption": {
+    "title": "MPC with Publicly Identifiable Abort from Pseudorandomness and Homomorphic Encryption",
+    "authors": "Marc Rivinius",
+    "eprint_url": "https://eprint.iacr.org/2025/258",
+    "timestamp": "2025-06-08 12:33:34"
+  },
+  "Singular points of UOV and VOX": {
+    "title": "Singular points of UOV and VOX",
+    "authors": "Pierre Pébereau",
+    "eprint_url": "https://eprint.iacr.org/2024/219",
+    "timestamp": "2025-06-08 12:33:55"
+  },
+  "Efficient Mixed Garbling from Homomorphic Secret Sharing and GGM-Tree": {
+    "title": "Efficient Mixed Garbling from Homomorphic Secret Sharing and GGM-Tree",
+    "authors": "Jian Guo, Wenjie Nan",
+    "eprint_url": "https://eprint.iacr.org/2025/207",
+    "timestamp": "2025-06-08 12:34:15"
+  },
+  "PAKE Combiners and Efficient Post-Quantum Instantiations": {
+    "title": "PAKE Combiners and Efficient Post-Quantum Instantiations",
+    "authors": "Julia Hesse, Michael Rosenberg",
+    "eprint_url": "https://eprint.iacr.org/2024/1621",
+    "timestamp": "2025-06-08 12:34:36"
+  },
+  "Generic Anamorphic Encryption, Revisited: New Limitations and Constructions": {
+    "title": "Generic Anamorphic Encryption, Revisited: New Limitations and Constructions",
+    "authors": "Dario Catalano, Emanuele Giunta, Francesco Migliaro",
+    "eprint_url": "https://eprint.iacr.org/2024/1119",
+    "timestamp": "2025-06-08 12:34:55"
+  },
+  "New Techniques for Preimage Sampling: Improved NIZKs and More from LWE": {
+    "title": "New Techniques for Preimage Sampling: Improved NIZKs and More from LWE",
+    "authors": "Brent Waters, Hoeteck Wee, David J. Wu",
+    "eprint_url": "https://eprint.iacr.org/2024/1401",
+    "timestamp": "2025-06-08 12:35:15"
+  },
+  "Quantum Key Leasing for PKE and FHE with a Classical Lessor": {
+    "title": "Quantum Key Leasing for PKE and FHE with a Classical Lessor",
+    "authors": "Orestis Chardouvelis, Vipul Goyal, Aayush Jain, Jiahui Liu",
+    "eprint_url": "https://eprint.iacr.org/2023/1640",
+    "timestamp": "2025-06-08 12:35:36"
+  },
+  "On Algebraic Homomorphic Encryption and its Applications to Doubly-Efficient PIR": {
+    "title": "On Algebraic Homomorphic Encryption and its Applications to Doubly-Efficient PIR",
+    "authors": "Hiroki Okada, Rachel Player, Simon Pohmann, Christian Weinert",
+    "eprint_url": "https://eprint.iacr.org/2024/1307",
+    "timestamp": "2025-06-08 12:35:56"
+  },
+  "A Generic Framework for Side-Channel Attacks against LWE-based Cryptosystems": {
+    "title": "A Generic Framework for Side-Channel Attacks against LWE-based Cryptosystems",
+    "authors": "Julius Hermelink, Silvan Streit, Erik Mårtensson, Richard Petri",
+    "eprint_url": "https://eprint.iacr.org/2024/1211",
+    "timestamp": "2025-06-08 12:36:16"
+  },
+  "The Impact of Reversibility on Parallel Pebbling": {
+    "title": "The Impact of Reversibility on Parallel Pebbling",
+    "authors": "Jeremiah Blocki, Blake Holman, Seunghoon Lee",
+    "eprint_url": "https://eprint.iacr.org/2024/334",
+    "timestamp": "2025-06-08 12:36:37"
+  },
+  "The Complexity of Memory Checking with Covert Security": {
+    "title": "The Complexity of Memory Checking with Covert Security",
+    "authors": "Elette Boyle, Ilan Komargodski, Neekon Vafa",
+    "eprint_url": "https://eprint.iacr.org/2025/358",
+    "timestamp": "2025-06-08 12:36:56"
+  },
+  "A Generic Approach to Adaptively-Secure Broadcast Encryption in the Plain Model": {
+    "title": "A Generic Approach to Adaptively-Secure Broadcast Encryption in the Plain Model",
+    "authors": "Yao-Ching Hsieh, Brent Waters, David J. Wu",
+    "eprint_url": "https://eprint.iacr.org/2025/323",
+    "timestamp": "2025-06-08 12:37:17"
+  },
+  "Towards Optimally Secure Deterministic Authenticated Encryption Schemes": {
+    "title": "Towards Optimally Secure Deterministic Authenticated Encryption Schemes",
+    "authors": "Yu Long Chen, Avijit Dutta, Ashwin Jha, Mridul Nandi",
+    "eprint_url": "https://eprint.iacr.org/2025/314",
+    "timestamp": "2025-06-08 12:37:38"
+  },
+  "Analysis of the Telegram Key Exchange": {
+    "title": "Analysis of the Telegram Key Exchange",
+    "authors": "Martin R. Albrecht, Lenka Mareková, Kenneth G. Paterson, Eyal Ronen, Igors Stepanovs",
+    "eprint_url": "https://eprint.iacr.org/2025/451",
+    "timestamp": "2025-06-08 12:37:58"
+  },
+  "Non-Interactive Blind Signatures from RSA Assumption and More": {
+    "title": "Non-Interactive Blind Signatures from RSA Assumption and More",
+    "authors": "Lucjan Hanzlik, Eugenio Paracucchi, Riccardo Zanotto",
+    "eprint_url": "https://eprint.iacr.org/2023/388.pdf",
+    "timestamp": "2025-06-08 12:38:18"
+  },
+  "Formal Analysis of Multi-Device Group Messaging in WhatsApp": {
+    "title": "Formal Analysis of Multi-Device Group Messaging in WhatsApp",
+    "authors": "Martin R. Albrecht, Benjamin Dowling, Daniel Jones",
+    "eprint_url": "https://eprint.iacr.org/2025/794",
+    "timestamp": "2025-06-08 12:38:40"
+  },
+  "Combining Outputs of a Random Permutation: New Constructions and Tight Security Bounds by Fourier Analysis": {
+    "title": "Combining Outputs of a Random Permutation: New Constructions and Tight Security Bounds by Fourier Analysis",
+    "authors": "Itai Dinur",
+    "eprint_url": "https://eprint.iacr.org/2024/929",
+    "timestamp": "2025-06-08 12:38:59"
+  },
+  "Efficient Pseudorandom Correlation Generators for Any Finite Field": {
+    "title": "Efficient Pseudorandom Correlation Generators for Any Finite Field",
+    "authors": "Zhe Li, Chaoping Xing, Yizhou Yao, Chen Yuan",
+    "eprint_url": "https://eprint.iacr.org/2025/169",
+    "timestamp": "2025-06-08 12:39:19"
+  },
+  "Improved Cryptanalysis of SNOVA": {
+    "title": "Improved Cryptanalysis of SNOVA",
+    "authors": "Ward Beullens",
+    "eprint_url": "https://eprint.iacr.org/2024/1297",
+    "timestamp": "2025-06-08 12:39:40"
+  },
+  "Verifiable random function from the Deuring correspondence and higher dimensional isogenies": {
+    "title": "Verifiable random function from the Deuring correspondence and higher dimensional isogenies",
+    "authors": "Antonin Leroux",
+    "eprint_url": "https://eprint.iacr.org/2023/1251",
+    "timestamp": "2025-06-08 12:40:00"
+  },
+  "WHIR: Reed–Solomon Proximity Testing with Super-Fast Verification": {
+    "title": "WHIR: Reed–Solomon Proximity Testing with Super-Fast Verification",
+    "authors": "Gal Arnon, Alessandro Chiesa, Giacomo Fenzi, Eylon Yogev",
+    "eprint_url": "https://eprint.iacr.org/2024/1586",
+    "timestamp": "2025-06-08 12:40:20"
+  },
+  "Unique NIZKs and Steganography Detection": {
+    "title": "Unique NIZKs and Steganography Detection",
+    "authors": "Willy Quach, LaKyah Tyner, Daniel Wichs",
+    "eprint_url": "https://eprint.iacr.org/2019/291.pdf",
+    "timestamp": "2025-06-08 12:40:41"
+  },
+  "Leveraging Small Message Spaces for CCA1 Security in Additively Homomorphic and BGN-type Encryption": {
+    "title": "Leveraging Small Message Spaces for CCA1 Security in Additively Homomorphic and BGN-type Encryption",
+    "authors": "Benoit Libert",
+    "eprint_url": "https://eprint.iacr.org/2024/920",
+    "timestamp": "2025-06-08 12:41:00"
+  },
+  "Gröbner Basis Cryptanalysis of Anemoi": {
+    "title": "Gröbner Basis Cryptanalysis of Anemoi",
+    "authors": "Luca Campa, Arnab Roy",
+    "eprint_url": "https://eprint.iacr.org/2025/814.pdf",
+    "timestamp": "2025-06-08 12:41:21"
+  },
+  "Juggernaut: Efficient Crypto-Agnostic Byzantine Agreement": {
+    "title": "Juggernaut: Efficient Crypto-Agnostic Byzantine Agreement",
+    "authors": "Daniel Collins, Yuval Efron, Jovan Komatovic",
+    "eprint_url": "https://eprint.iacr.org/2024/1601",
+    "timestamp": "2025-06-08 12:41:42"
+  },
+  "Good Things Come to Those Who Wait: Dishonest-Majority Coin-Flipping Requires Delay Functions": {
+    "title": "Good Things Come to Those Who Wait: Dishonest-Majority Coin-Flipping Requires Delay Functions",
+    "authors": "Joseph Bonneau, Benedikt Bünz, Miranda Christ, Yuval Efron",
+    "eprint_url": "https://eprint.iacr.org/2024/1711",
+    "timestamp": "2025-06-08 12:42:01"
+  },
+  "Oracle Separation Between Quantum Commitments and Quantum One-wayness": {
+    "title": "Oracle Separation Between Quantum Commitments and Quantum One-wayness",
+    "authors": "John Bostanci, Barak Nehoran, Boyang Chen",
+    "eprint_url": "https://eprint.iacr.org/2024/1568",
+    "timestamp": "2025-06-08 12:42:20"
+  },
+  "Instance Compression, Revisited": {
+    "title": "Instance Compression, Revisited",
+    "authors": "Gal Arnon, Shany Ben-David, Eylon Yogev",
+    "eprint_url": "https://eprint.iacr.org/2024/1659",
+    "timestamp": "2025-06-08 12:42:41"
+  },
+  "Plinko: Single-Server PIR with Efficient Updates via Invertible PRFs": {
+    "title": "Plinko: Single-Server PIR with Efficient Updates via Invertible PRFs",
+    "authors": "Alexander Hoover, Sarvar Patel, Giuseppe Persiano, Kevin Yeo",
+    "eprint_url": "https://eprint.iacr.org/2024/318",
+    "timestamp": "2025-06-08 12:43:01"
+  },
+  "Snake-eye Resistant PKE from LWE for Oblivious Message Retrieval and Robust Encryption": {
+    "title": "Snake-eye Resistant PKE from LWE for Oblivious Message Retrieval and Robust Encryption",
+    "authors": "Zeyu Liu, Katerina Sotiraki, Eran Tromer, Yunhao Wang",
+    "eprint_url": "https://eprint.iacr.org/2024/510",
+    "timestamp": "2025-06-08 12:43:21"
+  },
+  "Pseudorandom Functions with Weak Programming Privacy and Applications to Private Information Retrieval": {
+    "title": "Pseudorandom Functions with Weak Programming Privacy and Applications to Private Information Retrieval",
+    "authors": "Ashrujit Ghoshal, Mingxun Zhou, Elaine Shi, Bo Peng",
+    "eprint_url": "https://eprint.iacr.org/2025/300",
+    "timestamp": "2025-06-08 12:43:42"
+  },
+  "Post-Quantum PKE from Unstructured Noisy Linear Algebraic Assumptions: Beyond LWE and Alekhnovich's LPN": {
+    "title": "Post-Quantum PKE from Unstructured Noisy Linear Algebraic Assumptions: Beyond LWE and Alekhnovich's LPN",
+    "authors": "Riddhi Ghosal, Aayush Jain, Paul Lou, Amit Sahai, Neekon Vafa",
+    "eprint_url": "https://eprint.iacr.org/2025/844",
+    "timestamp": "2025-06-08 12:44:01"
+  },
+  "Secret Sharing with Publicly Verifiable Deletion": {
+    "title": "Secret Sharing with Publicly Verifiable Deletion",
+    "authors": "Jonathan Katz, Benjamin Sela",
+    "eprint_url": "https://eprint.iacr.org/2024/1596",
+    "timestamp": "2025-06-08 12:44:21"
+  },
+  "Multi-key Homomorphic Secret Sharing": {
+    "title": "Multi-key Homomorphic Secret Sharing",
+    "authors": "Geoffroy Couteau, Lalita Devadas, Aditya Hegde, Abhishek Jain, Sacha Servan-Schreiber",
+    "eprint_url": "https://eprint.iacr.org/2025/094",
+    "timestamp": "2025-06-08 12:44:43"
+  },
+  "Simultaneous-Message and Succinct Secure Computation": {
+    "title": "Simultaneous-Message and Succinct Secure Computation",
+    "authors": "Elette Boyle, Abhishek Jain, Akshayaram Srinivasan, Sacha Servan-Schreiber",
+    "eprint_url": "https://eprint.iacr.org/2025/096",
+    "timestamp": "2025-06-08 12:45:02"
+  },
+  "Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash": {
+    "title": "Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash",
+    "authors": "Pedro Branco, Arka Rai Choudhuri, Nico Döttling, Abhishek Jain, Giulio Malavolta, Akshayaram Srinivasan",
+    "eprint_url": "https://eprint.iacr.org/2024/1514",
+    "timestamp": "2025-06-08 12:45:22"
+  },
+  "A Simple Framework for Secure Key Leasing": {
+    "title": "A Simple Framework for Secure Key Leasing",
+    "authors": "Fuyuki Kitagawa, Tomoyuki Morimae, Takashi Yamakawa",
+    "eprint_url": "https://eprint.iacr.org/2024/1564",
+    "timestamp": "2025-06-08 12:45:43"
+  },
+  "Hard Quantum Extrapolations in Quantum Cryptography": {
+    "title": "Hard Quantum Extrapolations in Quantum Cryptography",
+    "authors": "Luowen Qian, Justin Raizes, Mark Zhandry",
+    "eprint_url": "https://eprint.iacr.org/2024/1500",
+    "timestamp": "2025-06-08 12:46:02"
+  },
+  "Tighter Security Notions for a Modular Approach to Private Circuits": {
+    "title": "Tighter Security Notions for a Modular Approach to Private Circuits",
+    "authors": "Bohan Wang, Juelin Zhang, Yu Yu, Weijia Wang",
+    "eprint_url": "https://eprint.iacr.org/2025/255",
+    "timestamp": "2025-06-08 12:46:22"
+  },
+  "POKÉ: A Compact and Efficient PKE from Higher-dimensional Isogenies": {
+    "title": "POKÉ: A Compact and Efficient PKE from Higher-dimensional Isogenies",
+    "authors": "Andrea Basso, Luciano Maino",
+    "eprint_url": "https://eprint.iacr.org/2024/624",
+    "timestamp": "2025-06-08 12:46:43"
+  },
+  "Hybrid Password Authentication Key Exchange in the UC Framework": {
+    "title": "Hybrid Password Authentication Key Exchange in the UC Framework",
+    "authors": "You Lyu, Shengli Liu",
+    "eprint_url": "https://eprint.iacr.org/2024/1630",
+    "timestamp": "2025-06-08 12:47:02"
+  },
+  "The 2Hash OPRF Framework and Efficient Post-Quantum Instantiations": {
+    "title": "The 2Hash OPRF Framework and Efficient Post-Quantum Instantiations",
+    "authors": "Ward Beullens, Lucas Dodgson, Sebastian Faller, Julia Hesse",
+    "eprint_url": "https://eprint.iacr.org/2024/450",
+    "timestamp": "2025-06-08 12:47:22"
+  },
+  "Preimage Attacks on up to 5 Rounds of SHA-3 Using Internal Differentials": {
+    "title": "Preimage Attacks on up to 5 Rounds of SHA-3 Using Internal Differentials",
+    "authors": "Zhongyi Zhang, Chengan Hou, Meicheng Liu",
+    "eprint_url": "https://eprint.iacr.org/2025/439",
+    "timestamp": "2025-06-08 12:47:43"
+  },
+  "On the Soundness of Algebraic Attacks against Code-based Assumptions": {
+    "title": "On the Soundness of Algebraic Attacks against Code-based Assumptions",
+    "authors": "Miguel Cueto Noval, Simon-Philipp Merz, Patrick Stählin, Akin Ünal",
+    "eprint_url": "https://eprint.iacr.org/2025/415",
+    "timestamp": "2025-06-08 12:48:02"
+  },
+  "Polynomial Time Cryptanalytic Extraction of Deep Neural Networks in the Hard-Label Setting": {
+    "title": "Polynomial Time Cryptanalytic Extraction of Deep Neural Networks in the Hard-Label Setting",
+    "authors": "Nicholas Carlini, Jorge Chávez-Saab, Anna Hambitzer, Francisco Rodr\\'iguez-Henr\\'iquez, Adi Shamir",
+    "eprint_url": "https://eprint.iacr.org/2024/1580",
+    "timestamp": "2025-06-08 12:48:22"
+  },
+  "Hollow LWE: A New Spin, Unbounded Updatable Encryption from LWE and PCE": {
+    "title": "Hollow LWE: A New Spin, Unbounded Updatable Encryption from LWE and PCE",
+    "authors": "Martin R. Albrecht, Benjamin Benčina, Russell W. F. Lai",
+    "eprint_url": "https://eprint.iacr.org/2025/340",
+    "timestamp": "2025-06-08 12:48:43"
+  },
+  "Universal Computational Extractors and Multi-Bit AIPO from Lattice Assumptions": {
+    "title": "Universal Computational Extractors and Multi-Bit AIPO from Lattice Assumptions",
+    "authors": "Yilei Chen, Xinyu Mao",
+    "eprint_url": "https://eprint.iacr.org/2024/225",
+    "timestamp": "2025-06-08 12:49:02"
+  },
+  "Round-Optimal Black-Box Multiparty Computation from Polynomial-Time Assumptions": {
+    "title": "Round-Optimal Black-Box Multiparty Computation from Polynomial-Time Assumptions",
+    "authors": "Michele Ciampi, Rafail Ostrovsky, Luisa Siniscalchi, Hendrik Waldner",
+    "eprint_url": "https://eprint.iacr.org/2023/1742",
+    "timestamp": "2025-06-08 12:49:23"
+  },
+  "Peeking Into the Future: MPC Resilient to Super-Rushing Adversaries": {
+    "title": "Peeking Into the Future: MPC Resilient to Super-Rushing Adversaries",
+    "authors": "Gilad Asharov, Anirudh Chandramouli, Ran Cohen, Yuval Ishai",
+    "eprint_url": "https://eprint.iacr.org/2024/1479.pdf",
+    "timestamp": "2025-06-08 12:49:44"
+  },
+  "A reduction from Hawk to the principal ideal problem in a quaternion algebra": {
+    "title": "A reduction from Hawk to the principal ideal problem in a quaternion algebra",
+    "authors": "Clémence Chevignard, Guilhem Mureau, Thomas Espitau, Alice Pellet-Mary, Heorhii Pliatsok, Alexandre Wallet",
+    "eprint_url": "https://eprint.iacr.org/2024/1147",
+    "timestamp": "2025-06-08 12:50:03"
+  },
+  "BitGC: Garbled Circuits with 1 Bit per Gate": {
+    "title": "BitGC: Garbled Circuits with 1 Bit per Gate",
+    "authors": "Hanlin Liu, Xiao Wang, Kang Yang, Yu Yu",
+    "eprint_url": "https://eprint.iacr.org/2024/1988",
+    "timestamp": "2025-06-08 12:50:23"
+  },
+  "Constructing Quantum Implementations with the Minimal T-depth or Minimal Width and Their Applications": {
+    "title": "Constructing Quantum Implementations with the Minimal T-depth or Minimal Width and Their Applications",
+    "authors": "Zhenyu Huang, Fuxin Zhang, Dongdai Lin",
+    "eprint_url": "https://eprint.iacr.org/2025/212",
+    "timestamp": "2025-06-08 12:50:44"
+  },
+  "A New Approach to Generic Lower Bounds: Classical/Quantum MDL, Quantum Factoring, and More": {
+    "title": "A New Approach to Generic Lower Bounds: Classical/Quantum MDL, Quantum Factoring, and More",
+    "authors": "Minki Hhan",
+    "eprint_url": "https://eprint.iacr.org/2024/268",
+    "timestamp": "2025-06-08 12:51:03"
+  },
+  "Cryptanalysis of Full SCARF": {
+    "title": "Cryptanalysis of Full SCARF",
+    "authors": "Antonio Flórez-Gutiérrez, Eran Lambooij, Gaëtan Leurent, Håvard Raddum, Tyge Tiessen, Michiel Verbauwhede",
+    "eprint_url": "https://eprint.iacr.org/2025/315",
+    "timestamp": "2025-06-08 12:51:23"
+  },
+  "Efficient Instances of Docked Double Decker With AES, and Application to Authenticated Encryption": {
+    "title": "Efficient Instances of Docked Double Decker With AES, and Application to Authenticated Encryption",
+    "authors": "Christoph Dobraunig, Krystian Matusiewicz, Bart Mennink, Alexander Tereschenko",
+    "eprint_url": "https://eprint.iacr.org/2024/084",
+    "timestamp": "2025-06-08 12:51:44"
+  },
+  "MiniCast: Minimizing the Communication Complexity of Reliable Broadcast": {
+    "title": "MiniCast: Minimizing the Communication Complexity of Reliable Broadcast",
+    "authors": "Thomas Locher, Victor Shoup",
+    "eprint_url": "https://eprint.iacr.org/2024/571",
+    "timestamp": "2025-06-08 12:52:03"
+  },
+  "Halving differential additions on Kummer lines": {
+    "title": "Halving differential additions on Kummer lines",
+    "authors": "Damien Robert, Nicolas Sarkis",
+    "eprint_url": "https://eprint.iacr.org/2024/1582",
+    "timestamp": "2025-06-08 12:52:23"
+  },
+  "A Meta-complexity Characterization of Quantum Cryptography": {
+    "title": "A Meta-complexity Characterization of Quantum Cryptography",
+    "authors": "Bruno Cavalar, Eli Goldin, Matthew Gray, Peter Hall",
+    "eprint_url": "https://eprint.iacr.org/2025/642",
+    "timestamp": "2025-06-08 12:52:44"
+  },
+  "INDIANA - Verifying (Random) Probing Security through Indistinguishability Analysis": {
+    "title": "INDIANA - Verifying (Random) Probing Security through Indistinguishability Analysis",
+    "authors": "Christof Beierle, Jakob Feldtkeller, Anna Guinet, Tim Güneysu, Gregor Leander, Jan Richter-Brockmann, Pascal Sasdrich",
+    "eprint_url": "https://eprint.iacr.org/2024/833",
+    "timestamp": "2025-06-08 12:53:03"
+  },
+  "Succinct Arguments over Towers of Binary Fields": {
+    "title": "Succinct Arguments over Towers of Binary Fields",
+    "authors": "Benjamin E. Diamond, Jim Posen",
+    "eprint_url": "https://eprint.iacr.org/2023/1784",
+    "timestamp": "2025-06-08 12:53:23"
+  },
+  "Stronger Security for Threshold Blind Signatures": {
+    "title": "Stronger Security for Threshold Blind Signatures",
+    "authors": "Anja Lehmann, Phillip Nazarian, Cavit Özbay",
+    "eprint_url": "https://eprint.iacr.org/2025/353",
+    "timestamp": "2025-06-08 12:53:43"
+  },
+  "Succinct Randomized Encodings from Laconic Function Evaluation, Faster and Simpler": {
+    "title": "Succinct Randomized Encodings from Laconic Function Evaluation, Faster and Simpler",
+    "authors": "Nir Bitansky, Rachit Garg",
+    "eprint_url": "https://eprint.iacr.org/2024/1815",
+    "timestamp": "2025-06-08 12:54:03"
+  },
+  "Asymptotically Optimal Early Termination for Dishonest Majority Broadcast": {
+    "title": "Asymptotically Optimal Early Termination for Dishonest Majority Broadcast",
+    "authors": "Giovanni Deligios, Ivana Klasovita, Chen-Da Liu-Zhang",
+    "eprint_url": "https://eprint.iacr.org/2024/1656",
+    "timestamp": "2025-06-08 12:54:23"
+  },
+  "The syzygy distinguisher": {
+    "title": "The syzygy distinguisher",
+    "authors": "Hugues RANDRIAMBOLOLONA",
+    "eprint_url": "https://eprint.iacr.org/2024/1193",
+    "timestamp": "2025-06-08 12:54:44"
+  },
+  "Exponent-VRFs and Their Applications": {
+    "title": "Exponent-VRFs and Their Applications",
+    "authors": "Dan Boneh, Iftach Haitner, Yehuda Lindell, Gil Segev",
+    "eprint_url": "https://eprint.iacr.org/2024/397",
+    "timestamp": "2025-06-08 12:55:04"
+  },
+  "Quasi-Linear Indistinguishability Obfuscation via Mathematical Proofs of Equivalence and Applications": {
+    "title": "Quasi-Linear Indistinguishability Obfuscation via Mathematical Proofs of Equivalence and Applications",
+    "authors": "Chenxin Dai, Yaohua Ma, Elaine Shi",
+    "eprint_url": "https://eprint.iacr.org/2025/307",
+    "timestamp": "2025-06-08 12:55:24"
+  },
+  "(Inefficient Prover) ZAPs from Hard-to-Invert Functions": {
+    "title": "(Inefficient Prover) ZAPs from Hard-to-Invert Functions",
+    "authors": "Marshall Ball, Dana Dachman-Soled",
+    "eprint_url": "https://eprint.iacr.org/2019/1464.pdf",
+    "timestamp": "2025-06-08 12:55:45"
+  },
+  "Multi-Authority Registered Attribute-Based Encryption": {
+    "title": "Multi-Authority Registered Attribute-Based Encryption",
+    "authors": "George Lu, Brent Waters, David J. Wu",
+    "eprint_url": "https://eprint.iacr.org/2022/1500",
+    "timestamp": "2025-06-08 12:56:24"
+  },
+  "A New World in the Depths of Microcrypt: Separating OWSGs and Quantum Money from QEFID": {
+    "title": "A New World in the Depths of Microcrypt: Separating OWSGs and Quantum Money from QEFID",
+    "authors": "Amit Behera, Giulio Malavolta, Tomoyuki Morimae, Tamer Mour, Takashi Yamakawa",
+    "eprint_url": "https://eprint.iacr.org/2024/1567",
+    "timestamp": "2025-06-08 12:56:45"
+  },
+  "Drifting Towards Better Error Probabilities in Fully Homomorphic Encryption Schemes": {
+    "title": "Drifting Towards Better Error Probabilities in Fully Homomorphic Encryption Schemes",
+    "authors": "Olivier Bernard, Marc Joye, Nigel Smart, Michael Walter",
+    "eprint_url": "https://eprint.iacr.org/2024/1718",
+    "timestamp": "2025-06-08 12:57:04"
+  },
+  "Under What Conditions Is Encrypted Key Exchange Actually Secure?": {
+    "title": "Under What Conditions Is Encrypted Key Exchange Actually Secure?",
+    "authors": "Jake Januzelli, Lawrence Roy, Jiayu Xu",
+    "eprint_url": "https://eprint.iacr.org/2024/324",
+    "timestamp": "2025-06-08 12:57:24"
+  },
+  "ChiLow and ChiChi: New Constructions for Code Encryption": {
+    "title": "ChiLow and ChiChi: New Constructions for Code Encryption",
+    "authors": "Yanis Belkheyar, Patrick Derbez, Shibam Ghosh, Gregor Leander, Silvia Mella, Léo Perrin, Shahram Rasoolzadeh, Lukas Stennes, Siwei Sun, Gilles Van Assche, Damian Vizár",
+    "eprint_url": "https://eprint.iacr.org/2025/308",
+    "timestamp": "2025-06-08 12:57:45"
+  },
+  "Efficient Distributed Randomness Generation from Minimal Assumptions where PArties Speak Sequentially Once": {
+    "title": "Efficient Distributed Randomness Generation from Minimal Assumptions where PArties Speak Sequentially Once",
+    "authors": "Chen-Da Liu-Zhang, Elisaweta Masserova, João Ribeiro, Pratik Soni, Sri AravindaKrishnan Thyagarajan",
+    "eprint_url": "https://eprint.iacr.org/2025/349",
+    "timestamp": "2025-06-08 12:58:05"
+  },
+  "Key Derivation Functions Without a Grain of Salt": {
+    "title": "Key Derivation Functions Without a Grain of Salt",
+    "authors": "Matilda Backendal, Sebastian Clermont, Marc Fischlin, Felix Günther",
+    "eprint_url": "https://eprint.iacr.org/2025/657",
+    "timestamp": "2025-06-08 12:58:24"
+  },
+  "Fully Homomorphic Encryption for Cyclotomic Prime Moduli": {
+    "title": "Fully Homomorphic Encryption for Cyclotomic Prime Moduli",
+    "authors": "Robin Geelen, Frederik Vercauteren",
+    "eprint_url": "https://eprint.iacr.org/2024/1587",
+    "timestamp": "2025-06-08 12:58:45"
+  },
+  "Cryptanalysis of rank-2 module-LIP: a single real embedding is all it takes": {
+    "title": "Cryptanalysis of rank-2 module-LIP: a single real embedding is all it takes",
+    "authors": "Bill Allombert, Alice Pellet-Mary, Wessel van Woerden",
+    "eprint_url": "https://eprint.iacr.org/2025/280",
+    "timestamp": "2025-06-08 13:42:26"
+  },
+  "Analyzing Group Chat Encryption in MLS, Session, Signal, and Matrix": {
+    "title": "Analyzing Group Chat Encryption in MLS, Session, Signal, and Matrix",
+    "authors": "Joseph Jaeger, Akshaya Kumar",
+    "eprint_url": "https://eprint.iacr.org/2025/554",
+    "timestamp": "2025-06-08 13:42:47"
+  },
+  "Black Box Crypto is Useless for Doubly Efficient PIR": {
+    "title": "Black Box Crypto is Useless for Doubly Efficient PIR",
+    "authors": "Wei-Kai Lin, Ethan Mook, Daniel Wichs",
+    "eprint_url": "https://eprint.iacr.org/2025/552",
+    "timestamp": "2025-06-08 13:43:08"
+  },
+  "(Un)breakable curses - re-encryption in the Fujisaki-Okamoto transform": {
+    "title": "(Un)breakable curses - re-encryption in the Fujisaki-Okamoto transform",
+    "authors": "Kathrin Hövelmanns, Andreas Hülsing, Christian Majenz, Fabrizio Sisinni",
+    "eprint_url": "https://eprint.iacr.org/2025/299",
+    "timestamp": "2025-06-08 13:43:27"
+  },
+  "Random Oracle Combiners: Merkle-Damgård Style": {
+    "title": "Random Oracle Combiners: Merkle-Damgård Style",
+    "authors": "Yevgeniy Dodis, Eli Goldin, Peter Hall",
+    "eprint_url": "https://eprint.iacr.org/2025/609.pdf",
+    "timestamp": "2025-06-08 13:43:47"
+  },
+  "Disincentivize Collusion in Verifiable Secret Sharing": {
+    "title": "Disincentivize Collusion in Verifiable Secret Sharing",
+    "authors": "Tiantian Gong, Aniket Kate, Hemanta Maji, Hai Nguyen",
+    "eprint_url": "https://eprint.iacr.org/2025/446",
+    "timestamp": "2025-06-08 13:44:09"
+  },
+  "Binary Codes for Error Detection and Correction in a Computationally Bounded World": {
+    "title": "Binary Codes for Error Detection and Correction in a Computationally Bounded World",
+    "authors": "Jad Silbak, Daniel Wichs",
+    "eprint_url": "https://eprint.iacr.org/2025/190",
+    "timestamp": "2025-06-08 13:44:28"
+  },
+  "SHIP: A Shallow and Highly Parallelizable CKKS Bootstrapping Algorithm": {
+    "title": "SHIP: A Shallow and Highly Parallelizable CKKS Bootstrapping Algorithm",
+    "authors": "Jung Hee Cheon, Guillaume Hanrot, Jongmin Kim, Damien Stehlé",
+    "eprint_url": "https://eprint.iacr.org/2025/784.pdf",
+    "timestamp": "2025-06-08 13:44:48"
+  },
+  "Distributed Randomness using Weighted VUFs": {
+    "title": "Distributed Randomness using Weighted VUFs",
+    "authors": "Sourav Das, Benny Pinkas, Alin Tomescu, Zhuolun Xiang",
+    "eprint_url": "https://eprint.iacr.org/2024/198",
+    "timestamp": "2025-06-08 13:45:09"
+  },
+  "Triple Ratchet: A Bandwidth Efficient Hybrid-Secure Signal Protocol": {
+    "title": "Triple Ratchet: A Bandwidth Efficient Hybrid-Secure Signal Protocol",
+    "authors": "Yevgeniy Dodis, Daniel Jost, Shuichi Katsumata, Thomas Prest, Rolfe Schmidt",
+    "eprint_url": "https://eprint.iacr.org/2025/078",
+    "timestamp": "2025-06-08 13:45:28"
+  },
+  "Weakly Super-Invertible Matrices and Constant Communication Dishonest Majority MPC": {
+    "title": "Weakly Super-Invertible Matrices and Constant Communication Dishonest Majority MPC",
+    "authors": "Alexander Bienstock, Kevin Yeo",
+    "eprint_url": "https://eprint.iacr.org/2024/503",
+    "timestamp": "2025-06-08 13:45:48"
+  },
+  "Glacius: Threshold Schnorr Signatures from DDH with Full Adaptive Security": {
+    "title": "Glacius: Threshold Schnorr Signatures from DDH with Full Adaptive Security",
+    "authors": "Renas Bacho, Sourav Das, Julian Loss, Ling Ren",
+    "eprint_url": "https://eprint.iacr.org/2024/1628",
+    "timestamp": "2025-06-08 13:46:09"
+  },
+  "Polocolo: A ZK-Friendly Hash Function Based on S-boxes Using Power Residues": {
+    "title": "Polocolo: A ZK-Friendly Hash Function Based on S-boxes Using Power Residues",
+    "authors": "Jincheol Ha, Seongha Hwang, Jooyoung Lee, Seungmin Park, Mincheol Son",
+    "eprint_url": "https://eprint.iacr.org/2025/926",
+    "timestamp": "2025-06-08 13:46:28"
+  },
+  "The power of a single Haar random state: constructing and separating quantum pseudorandomness": {
+    "title": "The power of a single Haar random state: constructing and separating quantum pseudorandomness",
+    "authors": "Boyang Chen, Andrea Coladangelo, Or Sattath",
+    "eprint_url": "https://eprint.iacr.org/2024/1568.pdf",
+    "timestamp": "2025-06-08 13:46:49"
+  },
+  "Breaking the 1/λ-Rate Barrier for Arithmetic Garbling": {
+    "title": "Breaking the 1/λ-Rate Barrier for Arithmetic Garbling",
+    "authors": "Naman Kumar, Aditya Hegde, Carmit Hazay, Geoffroy Couteau",
+    "eprint_url": "https://eprint.iacr.org/2025/1053",
+    "timestamp": "2025-06-08 13:47:10"
+  },
+  "Fine-Grained Complexity in a World without Cryptography": {
+    "title": "Fine-Grained Complexity in a World without Cryptography",
+    "authors": "Josh Alman, Yizhi Huang, Kevin Yeo",
+    "eprint_url": "https://eprint.iacr.org/2025/324",
+    "timestamp": "2025-06-08 13:47:30"
+  },
+  "Black-Box Constant-Round Secure 2PC with Succinct Communication": {
+    "title": "Black-Box Constant-Round Secure 2PC with Succinct Communication",
+    "authors": "Michele Ciampi, Ankit Kumar Misra, Rafail Ostrovsky, Akash Shah",
+    "eprint_url": "https://eprint.iacr.org/2025/474",
+    "timestamp": "2025-06-08 13:47:50"
+  },
+  "Single-Server Client Preprocessing PIR with Tight Space-Time Trade-oﬀ": {
+    "title": "Single-Server Client Preprocessing PIR with Tight Space-Time Trade-oﬀ",
+    "authors": "Zhikun Wang, Ling Ren",
+    "eprint_url": "https://eprint.iacr.org/2024/1845",
+    "timestamp": "2025-06-08 13:48:11"
+  },
+  "Efficient Multiparty Private Simultaneous Messages for Symmetric Functions": {
+    "title": "Efficient Multiparty Private Simultaneous Messages for Symmetric Functions",
+    "authors": "Reo Eriguchi, Kazumasa Shinagawa",
+    "eprint_url": "https://eprint.iacr.org/2024/1152.pdf",
+    "timestamp": "2025-06-08 13:48:31"
+  },
+  "Almost Optimal KP and CP-ABE for Circuits from Succinct LWE": {
+    "title": "Almost Optimal KP and CP-ABE for Circuits from Succinct LWE",
+    "authors": "Hoeteck Wee",
+    "eprint_url": "https://eprint.iacr.org/2025/509",
+    "timestamp": "2025-06-08 13:48:51"
+  },
+  "Do Not Disturb a Sleeping Falcon: Floating-Point Error Sensitivity of the Falcon Sampler and Its Consequences": {
+    "title": "Do Not Disturb a Sleeping Falcon: Floating-Point Error Sensitivity of the Falcon Sampler and Its Consequences",
+    "authors": "Xiuhan Lin, Mehdi Tibouchi, Yang Yu, Shiduo Zhang",
+    "eprint_url": "https://eprint.iacr.org/2024/1709",
+    "timestamp": "2025-06-08 13:49:12"
+  },
+  "LEAP: A Fast, Lattice-based OPRF with Application to Private Set Intersection": {
+    "title": "LEAP: A Fast, Lattice-based OPRF with Application to Private Set Intersection",
+    "authors": "Lena Heimberger, Daniel Kales, Riccardo Lolato, Omid Mir, Sebastian Ramacher, Christian Rechberger",
+    "eprint_url": "https://eprint.iacr.org/2025/333",
+    "timestamp": "2025-06-08 13:49:31"
+  },
+  "Blaze: Fast SNARKs from Interleaved RAA Codes": {
+    "title": "Blaze: Fast SNARKs from Interleaved RAA Codes",
+    "authors": "Martijn Brehm, Binyi Chen, Ben Fisch, Nicolas Resch, Ron D. Rothblum, Hadas Zeilberger",
+    "eprint_url": "https://eprint.iacr.org/2024/1609",
+    "timestamp": "2025-06-08 13:49:51"
+  },
+  "Enhanced Trapdoor Hashing from DDH and DCR": {
+    "title": "Enhanced Trapdoor Hashing from DDH and DCR",
+    "authors": "Geoffroy Couteau, Aditya Hegde, Sihang Pu",
+    "eprint_url": "https://eprint.iacr.org/2025/416.pdf",
+    "timestamp": "2025-06-08 13:50:12"
+  },
+  "Pseudorandomness in the (Inverseless) Haar Random Oracle Model": {
+    "title": "Pseudorandomness in the (Inverseless) Haar Random Oracle Model",
+    "authors": "Prabhanjan Ananth, John Bostanci, Aditya Gulati, Yao-Ting Lin",
+    "eprint_url": "https://eprint.iacr.org/2024/1745",
+    "timestamp": "2025-06-08 13:50:32"
+  },
+  "Solving Multivariate Coppersmith Problems with Known Moduli": {
+    "title": "Solving Multivariate Coppersmith Problems with Known Moduli",
+    "authors": "Keegan Ryan",
+    "eprint_url": "https://eprint.iacr.org/2024/1577",
+    "timestamp": "2025-06-08 13:50:52"
+  },
+  "Physical-bit Leakage Resilience of Linear Code-based Secret Sharing": {
+    "title": "Physical-bit Leakage Resilience of Linear Code-based Secret Sharing",
+    "authors": "Hai H. Nguyen",
+    "eprint_url": "https://eprint.iacr.org/2021/186.pdf",
+    "timestamp": "2025-06-08 13:51:13"
+  },
+  "New Techniques for Random Probing Security and Application to Raccoon Signature Scheme": {
+    "title": "New Techniques for Random Probing Security and Application to Raccoon Signature Scheme",
+    "authors": "Sonia Belaïd, Matthieu Rivain, Mélissa Rossi",
+    "eprint_url": "https://eprint.iacr.org/2025/278",
+    "timestamp": "2025-06-08 13:51:32"
+  },
+  "On Reusable Proof Systems": {
+    "title": "On Reusable Proof Systems",
+    "authors": "Yuval Ishai, Eyal Kushilevitz, Varun Narayanan, Rafail Ostrovsky, Akash Shah",
+    "eprint_url": "https://eprint.iacr.org/2020/1446.pdf",
+    "timestamp": "2025-06-08 13:51:53"
+  },
+  "Improved Cryptanalysis of ChaCha: Beating PNBs with Bit Puncturing": {
+    "title": "Improved Cryptanalysis of ChaCha: Beating PNBs with Bit Puncturing",
+    "authors": "Antonio Florez-Gutierrez, Yosuke Todo",
+    "eprint_url": "https://eprint.iacr.org/2025/437",
+    "timestamp": "2025-06-08 13:52:14"
+  },
+  "Computing the endomorphism ring of a supersingular elliptic curve from a full rank suborder": {
+    "title": "Computing the endomorphism ring of a supersingular elliptic curve from a full rank suborder",
+    "authors": "Mingjie Chen, Christophe Petit",
+    "eprint_url": "https://eprint.iacr.org/2022/098.pdf",
+    "timestamp": "2025-06-08 13:52:33"
+  },
+  "On the Adaptive Security of Free-XOR-based Garbling Schemes in the Plain Model": {
+    "title": "On the Adaptive Security of Free-XOR-based Garbling Schemes in the Plain Model",
+    "authors": "Anasuya Acharya, Karen Azari, Chethan Kamath",
+    "eprint_url": "https://eprint.iacr.org/2025/326",
+    "timestamp": "2025-06-08 13:52:54"
+  },
+  "Relaxed Vector Commitment for Shorter Signatures": {
+    "title": "Relaxed Vector Commitment for Shorter Signatures",
+    "authors": "Seongkwang Kim, Byeonghak Lee, Mincheol Son",
+    "eprint_url": "https://eprint.iacr.org/2024/1004",
+    "timestamp": "2025-06-08 13:53:15"
+  },
+  "Zero-Knowledge RAM: Doubly Efficient and Black-Box": {
+    "title": "Zero-Knowledge RAM: Doubly Efficient and Black-Box",
+    "authors": "Yuval Ishai, Rafail Ostrovsky, Akash Shah",
+    "eprint_url": "https://eprint.iacr.org/2025/474.pdf",
+    "timestamp": "2025-06-08 13:53:34"
+  },
+  "Ciphertext-Ciphertext Matrix Multiplication: Fast for Large Matrices": {
+    "title": "Ciphertext-Ciphertext Matrix Multiplication: Fast for Large Matrices",
+    "authors": "Jai Hyun Park",
+    "eprint_url": "https://eprint.iacr.org/2025/448",
+    "timestamp": "2025-06-08 13:53:55"
+  },
+  "Re-Randomize and Extract: A Novel Commitment Construction Framework Based on Group Actions": {
+    "title": "Re-Randomize and Extract: A Novel Commitment Construction Framework Based on Group Actions",
+    "authors": "Kaijie Jiang, Anyu Wang, Hengyi Luo, Guoxiao Liu, Gang Tang, Yanbin Pan, Xiaoyun Wang",
+    "eprint_url": "https://eprint.iacr.org/2025/400",
+    "timestamp": "2025-06-08 13:54:17"
+  },
+  "Faster ABE for Turing Machines from Circular Evasive LWE": {
+    "title": "Faster ABE for Turing Machines from Circular Evasive LWE",
+    "authors": "Valerio Cini, Hoeteck Wee",
+    "eprint_url": "https://eprint.iacr.org/2025/339.pdf",
+    "timestamp": "2025-06-08 13:54:36"
+  },
+  "SNARKs for Virtual Machines are Non-Malleable": {
+    "title": "SNARKs for Virtual Machines are Non-Malleable",
+    "authors": "Matteo Campanelli, Antonio Faonio, Luigi Russo",
+    "eprint_url": "https://eprint.iacr.org/2024/1551",
+    "timestamp": "2025-06-08 13:54:56"
+  },
+  "TinyLabels: How to Compress Garbled Circuit Input Labels, Efficiently": {
+    "title": "TinyLabels: How to Compress Garbled Circuit Input Labels, Efficiently",
+    "authors": "Marian Dietz, Hanjun Li, Huijia Lin",
+    "eprint_url": "https://eprint.iacr.org/2024/2048",
+    "timestamp": "2025-06-08 13:55:17"
+  },
+  "Committing Authenticated Encryption: Generic Transforms with Hash Functions": {
+    "title": "Committing Authenticated Encryption: Generic Transforms with Hash Functions",
+    "authors": "Shan Chen, Vukašin Karadžić",
+    "eprint_url": "https://eprint.iacr.org/2025/320",
+    "timestamp": "2025-06-08 13:55:37"
+  },
+  "Malleable SNARKs and Their Applications": {
+    "title": "Malleable SNARKs and Their Applications",
+    "authors": "Suvradip Chakraborty, Dennis Hofheinz, Roman Langrehr, Jesper Buus Nielsen, Christoph Striecks, Daniele Venturi",
+    "eprint_url": "https://eprint.iacr.org/2025/311",
+    "timestamp": "2025-06-08 13:55:57"
+  },
+  "Low-Bandwidth Mixed Arithmetic in VOLE-Based ZK from Low-Degree PRGs": {
+    "title": "Low-Bandwidth Mixed Arithmetic in VOLE-Based ZK from Low-Degree PRGs",
+    "authors": "Amit Agarwal, Carsten Baum, Lennart Braun, Peter Scholl",
+    "eprint_url": "https://eprint.iacr.org/2023/1573.pdf",
+    "timestamp": "2025-06-08 13:56:18"
+  },
+  "Making GCM Great Again: Toward Full Security and Longer Nonces": {
+    "title": "Making GCM Great Again: Toward Full Security and Longer Nonces",
+    "authors": "Woohyuk Chung, Seongha Hwang, Seongkwang Kim, Byeonghak Lee, Jooyoung Lee",
+    "eprint_url": "https://eprint.iacr.org/2025/577",
+    "timestamp": "2025-06-08 13:56:37"
+  },
+  "Honest Majority MPC with $\\Tilde{O}(|C|)$ Communication in Minicrypt": {
+    "title": "Honest Majority MPC with $\\Tilde{O}(|C|)$ Communication in Minicrypt",
+    "authors": "Yifan Song, Xiaxi Ye",
+    "eprint_url": "https://eprint.iacr.org/2025/283",
+    "timestamp": "2025-06-08 13:56:57"
+  },
+  "Anamorphism Beyond One-To-One Messaging: Public-Key with Anamorphic Broadcast Mode": {
+    "title": "Anamorphism Beyond One-To-One Messaging: Public-Key with Anamorphic Broadcast Mode",
+    "authors": "Xuan Thanh Do, Giuseppe Persiano, Duong Hieu Phan, Moti Yung",
+    "eprint_url": null,
+    "timestamp": "2025-06-08 14:15:02"
   }
 }

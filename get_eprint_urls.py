@@ -176,7 +176,7 @@ def get_eprint_url(title, authors="", driver=None):
             print(f"在整个页面中查找，共有 {len(all_links)} 个链接")
             for link in all_links:
                 href = link.get('href', '')
-                if 'eprint.iacr.org' in href:
+                if 'eprint.iacr.org' in href and 'eprint.iacr.org' != herf:
                     eprint_url = href
                     print(f"在页面全局范围内找到eprint链接: {eprint_url}")
                     return eprint_url
@@ -308,7 +308,7 @@ def process_papers_from_json(use_headless=True, start_index=0, end_index=None, r
                 print(f"保存结果时出错: {str(e)}")
             
             # 延时，避免请求过于频繁
-            delay_time = 5 + (i % 3)  # 稍微随机化延迟时间，避免规律性请求
+            delay_time = 1 + (i % 3)  # 稍微随机化延迟时间，避免规律性请求
             print(f"等待 {delay_time} 秒...")
             time.sleep(delay_time)
         
